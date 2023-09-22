@@ -8,13 +8,13 @@ const loadSchema = new mongoose.Schema({
         required: true, // Data is required
       },
 
-      newstype:{
+      type:{
         type:String,
         required:true
       }
 });
 
-const Allnews = mongoose.model('Allnews', loadSchema);
+const GKmodal = mongoose.model('GKmodal', loadSchema);
 
 
-module.exports = Allnews;
+module.exports = GKmodal;
